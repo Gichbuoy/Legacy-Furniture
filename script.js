@@ -16,3 +16,20 @@ if (close) {
         nav.classList.remove('active');
     })
 }
+
+/*==================== BLOG MODAL ====================*/
+document.getElementById('centered-toggle-button').addEventListener('click', function() {
+    document.getElementById('modal').style.display = 'block';
+});
+document.getElementById('close-modal').addEventListener('click', function() {
+    document.getElementById('modal').style.display = 'none';
+});
+
+// var buttons = document.querySelectorAll(".toggle-button");
+//     var modal = document.querySelector("#modal");
+//     [].forEach.call(buttons, function(button){
+//         button.addEventListener("click", function(){
+//             modal.classList.toggle("off");
+//         });
+//     });
+
